@@ -1,0 +1,16 @@
+## Function converts currency amounts stored as characters with dollar sign
+## to numeric values, for analysis and calculation.
+## Useful for exported data where the export saves dolar amounts with dollar signs and commas.
+
+dollar_to_numeric <- function(x){
+        # Remove the $ sign
+        x <- gsub("$", "", x, fixed=TRUE)
+        
+        # Remove the comma
+        x <- gsub(",", "", x, fixed=TRUE)
+        
+        # Convert to numeric
+        x <- as.numeric(x)
+}
+
+# future development: check that the input is a character with only dollar signs, dots, , commas, and numeric digits.
