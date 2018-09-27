@@ -2,10 +2,7 @@
 # that's in a character format -- instead of modifying each tbl individually to convert the
 # date column into date format, it's handy to do them all in one go.
 #
-# I'm working on writing this as a function. As usual it's specific to me (e.g. the data that I 
-# mostly use is stored in "dd mon yyyy" format, and with a column header that is always "date", 
-# so I've written it specific to that, but future development will involve making it more
-# generic and customizable.)
+# This as a function here: https://github.com/SuperCroup/r_functions/blob/master/fix_dates
 
 
 library(tibble)
