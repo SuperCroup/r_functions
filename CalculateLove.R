@@ -1,10 +1,12 @@
 CalculateLove <- function(name1, name2){
 
-# This function calculates romantic compatibility. The arguments are two character vectors, each
+# This function calculates romantic compatibility. 
+# The arguments are two character vectors, each
 # of length 1, which are the persons' names.
 #
-# For best results, try different variations of the names (e.g including/excluding middle names, 
-# titles, initials etc. until you get the result you want.
+# For best results, try different variations of the names 
+# (e.g including/excluding middle names, titles, initials 
+# etc.) until you get the result you want.
   
   name1a <- unlist(strsplit(name1, ""))
   name2a <- unlist(strsplit(name2, ""))
