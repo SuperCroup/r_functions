@@ -9,7 +9,9 @@ packages_to_load <-
     "kableExtra", 
     "glue", 
     "janitor", 
-    "hms"
+    "hms", 
+    "ggpmisc", 
+    "patchwork"
   )
 
 lapply(packages_to_load, library, character.only = TRUE)
